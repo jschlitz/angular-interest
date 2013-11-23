@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a41135b-8eb0-4b26-ac83-6c502da9ecbf" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\Reynard.Reynard-PC\src\angular-interest\app\partials\.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Reynard.Reynard-PC\src\angular-interest\app\partials\partial1.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Reynard.Reynard-PC\src\angular-interest\app\partials\partial2.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/app.js" afterPath="$PROJECT_DIR$/app/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/controllers.js" afterPath="$PROJECT_DIR$/app/js/controllers.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/unit/controllersSpec.js" afterPath="$PROJECT_DIR$/test/unit/controllersSpec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="angular-interest.iws" />
@@ -59,19 +53,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="controllersSpec.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="controllersSpec.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/unit/controllersSpec.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="8" selection-start="640" selection-end="640" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="585">
+            <state line="29" column="49" selection-start="917" selection-end="917" vertical-scroll-proportion="0.5555556" vertical-offset="135" max-vertical-offset="750">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="controllers.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="controllers.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/js/controllers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="6" selection-start="558" selection-end="558" vertical-scroll-proportion="0.6111111" vertical-offset="0" max-vertical-offset="540">
+            <state line="19" column="0" selection-start="503" selection-end="503" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
               <folding />
             </state>
           </provider>
@@ -362,7 +356,11 @@
       <created>1385243461484</created>
       <updated>1385243461484</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="cut old code, Added tests.&#10;">
+      <created>1385247369791</created>
+      <updated>1385247369791</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -480,16 +478,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/unit/controllersSpec.js">
+    <entry file="file://$PROJECT_DIR$/app/js/controllers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="8" selection-start="640" selection-end="640" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="585">
+        <state line="19" column="0" selection-start="503" selection-end="503" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/controllers.js">
+    <entry file="file://$PROJECT_DIR$/test/unit/controllersSpec.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="6" selection-start="558" selection-end="558" vertical-scroll-proportion="0.6111111" vertical-offset="0" max-vertical-offset="540">
+        <state line="29" column="49" selection-start="917" selection-end="917" vertical-scroll-proportion="0.5555556" vertical-offset="135" max-vertical-offset="750">
           <folding />
         </state>
       </provider>
