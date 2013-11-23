@@ -360,7 +360,11 @@
       <created>1385247369791</created>
       <updated>1385247369791</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="yay, rule of 2 works&#10;">
+      <created>1385247676093</created>
+      <updated>1385247676093</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -397,7 +401,8 @@
     <MESSAGE value="Added from webstorm" />
     <MESSAGE value="more tooling around&#10;" />
     <MESSAGE value="cut old code, Added tests.&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="cut old code, Added tests.&#10;" />
+    <MESSAGE value="yay, rule of 2 works&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="yay, rule of 2 works&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
