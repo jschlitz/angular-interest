@@ -7,7 +7,7 @@ describe('controllers', function(){
 
 
   it('should ....', inject(function() {
-    //spec body
+    expect(false).toBe(false);
   }));
 
   it('should ....', inject(function() {
