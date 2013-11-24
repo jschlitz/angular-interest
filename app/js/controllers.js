@@ -7,7 +7,7 @@ angular.module('myApp.controllers', []).
       $scope.interest = {
         start : 100000.00,
         rate : 7.2,
-        per : "year",
+        per : "Year",
         periods : 30,
         items : []
       };
@@ -19,5 +19,7 @@ angular.module('myApp.controllers', []).
         };
 
         $scope.interest.items = items;
+
+        console.log(items.length);
       };
   }]);

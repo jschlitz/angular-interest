@@ -9,6 +9,27 @@
   <div ng-view></div>
 
   <div ng-controller="InterestCtrl">
+<!--
+
+TODO live update?
+TODO display text boxes with currency?
+TODO Do month/year thing
+TODO Formatting?
+
+-->
+    <label for="startInput" >Starting Value</label> <input id="startInput" type="text" ng-model="interest.start"><br>
+    <label for="rateInput">Rate</label> <input id="rateInput" type="text" ng-model="interest.rate"><br>
+    <label for="perInput">Time </label>
+    <select id="perInput" ng-model="interest.per">
+      <option>Year</option>
+      <option>Month</option>
+    </select> <br>
+    <label for="periodsInput">Periods</label> <input id="periodsInput" type="text" ng-model="interest.periods"><br>
+    <input type="button" ng-click="interest.calculate()" value="Calculate!">
+
+    <ul>
+      <li ng-repeat="item in interest.items">{{ $index }}: {{ item | currency}}</li>
+    </ul>
 
   </div>
 
