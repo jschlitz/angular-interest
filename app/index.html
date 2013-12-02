@@ -16,6 +16,9 @@ TODO display text boxes with currency?
 TODO Formatting?
 
 -->
+    <label for="foopyInput" >foopy!</label>
+    <input id="foopyInput" type="text" ng-model="interest.foopy"><br>
+
     <label for="startInput" >Starting Value</label>
     <input id="startInput" type="number" ng-model="interest.start" step="1000"><br>
 
@@ -37,7 +40,9 @@ TODO Formatting?
     <input type="button" ng-click="interest.calculate()" value="Calculate!">
 
     <ul>
-      <li ng-repeat="item in interest.items"> {{ interest.per }} {{ $index }}: {{ item | currency}}</li>
+      <li ng-repeat="item in interest.calcItems(interest.start, interest.periods, interest.intervalRate(interest), interest.additional)">
+        {{ interest.per }} {{ $index }}: {{ item | currency}}
+      </li>
     </ul>
 
   </div>
