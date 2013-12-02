@@ -13,7 +13,6 @@
 
 TODO live update?
 TODO display text boxes with currency?
-TODO Do month/year thing
 TODO Formatting?
 
 -->
@@ -38,7 +37,7 @@ TODO Formatting?
     <input type="button" ng-click="interest.calculate()" value="Calculate!">
 
     <ul>
-      <li ng-repeat="item in interest.items">{{ $index }}: {{ item | currency}}</li>
+      <li ng-repeat="item in interest.items"> {{ interest.per }} {{ $index }}: {{ item | currency}}</li>
     </ul>
 
   </div>

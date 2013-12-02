@@ -10,13 +10,17 @@ angular.module('myApp.controllers', []).
         rate : 7.2,
         per : "Year",
         periods : 30,
-        items : []
+        items : [],
+        intervalRate : function() {
+          return (this.per === "Month") ? this.rate/12 : this.rate;
+        }
       };
+
       $scope.interest.calculate = function() {
         var items = [$scope.interest.start];
 
         for (var i=0; i < $scope.interest.periods; i++){
-          items.push(items[i] * (1+$scope.interest.rate/100) + $scope.interest.additional);
+          items.push(items[i] * (1+$scope.interest.intervalRate()/100) + $scope.interest.additional);
         };
 
         $scope.interest.items = items;
