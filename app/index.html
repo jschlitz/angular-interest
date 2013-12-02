@@ -17,14 +17,24 @@ TODO Do month/year thing
 TODO Formatting?
 
 -->
-    <label for="startInput" >Starting Value</label> <input id="startInput" type="text" ng-model="interest.start"><br>
-    <label for="rateInput">Rate</label> <input id="rateInput" type="text" ng-model="interest.rate"><br>
+    <label for="startInput" >Starting Value</label>
+    <input id="startInput" type="number" ng-model="interest.start" step="1000"><br>
+
+    <label for="additionalInput" >Additions</label>
+    <input id="additionalInput" type="number" ng-model="interest.additional" step="100"><br>
+
+    <label for="rateInput">Rate</label>
+    <input id="rateInput" type="number" ng-model="interest.rate" step="0.1" min="0"><br>
+
     <label for="perInput">Time </label>
     <select id="perInput" ng-model="interest.per">
       <option>Year</option>
       <option>Month</option>
     </select> <br>
-    <label for="periodsInput">Periods</label> <input id="periodsInput" type="text" ng-model="interest.periods"><br>
+
+    <label for="periodsInput">Periods</label>
+    <input id="periodsInput" type="number" ng-model="interest.periods" min="1"><br>
+
     <input type="button" ng-click="interest.calculate()" value="Calculate!">
 
     <ul>
